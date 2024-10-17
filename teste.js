@@ -66,10 +66,10 @@
 // ----------------------------------------------------
 
 // digite o valor sair para encerrar do contrario irá continuar o laço de repetição
-const prompt = require ("prompt-sync")();
-let valordigitado;
-do {
-   valordigitado = prompt ("Digite um valor:") 
+// const prompt = require ("prompt-sync")();
+// let valordigitado;
+// do {
+//    valordigitado = prompt ("Digite um valor:") 
 // }while (valordigitado !== "sair");
 // __________________________________________________________________
 // const pessoa = {
@@ -87,3 +87,11 @@ do {
 // }
 
 // for of
+
+const dados = ["joaozinho", "Zezin"];
+const index = dados.indexOf("joaozinho");
+
+const elementos = dados.slice(index, 1);
+
+console.log(dados);
+console.log(elementos);
